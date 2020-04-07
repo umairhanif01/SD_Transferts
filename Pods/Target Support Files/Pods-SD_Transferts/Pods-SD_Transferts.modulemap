@@ -1,0 +1,6 @@
+framework module Pods_SD_Transferts {
+  umbrella header "Pods-SD_Transferts-umbrella.h"
+
+  export *
+  module * { export * }
+}

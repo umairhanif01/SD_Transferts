@@ -1,0 +1,57 @@
+PODS:
+  - Alamofire (4.9.1)
+  - AlamofireObjectMapper (5.2.1):
+    - Alamofire (~> 4.7)
+    - ObjectMapper (~> 3.4)
+  - Apsara (1.0.1)
+  - EZYGradientView (1.5.1)
+  - IQKeyboardManagerSwift (6.5.0)
+  - McPicker (2.0.1)
+  - ObjectMapper (3.5.2)
+  - SwiftyJSON (5.0.0)
+  - TextFieldEffects (1.6.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.7)
+  - AlamofireObjectMapper (~> 5.2)
+  - Apsara
+  - EZYGradientView (from `https://github.com/Niphery/EZYGradientView`)
+  - IQKeyboardManagerSwift (= 6.5.0)
+  - McPicker
+  - SwiftyJSON
+  - TextFieldEffects
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AlamofireObjectMapper
+    - Apsara
+    - IQKeyboardManagerSwift
+    - McPicker
+    - ObjectMapper
+    - SwiftyJSON
+    - TextFieldEffects
+
+EXTERNAL SOURCES:
+  EZYGradientView:
+    :git: https://github.com/Niphery/EZYGradientView
+
+CHECKOUT OPTIONS:
+  EZYGradientView:
+    :commit: e8cc7bf2fb77557af214289288ebc96776ffbf57
+    :git: https://github.com/Niphery/EZYGradientView
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  AlamofireObjectMapper: 1989f690e982b71921b9253f53a4f33a9bc00d88
+  Apsara: 1868c38231974af29b68c840ada9313a16290ed7
+  EZYGradientView: f13e7a9e774b906c66d617fb04a13c8853ba25b4
+  IQKeyboardManagerSwift: 6cd19976c6e871907c4ed9127c2d3affdd4defc2
+  McPicker: a0a6b8ece8f1642e05401a29867463aba501188b
+  ObjectMapper: b53ae947d370bf89423e86be7d4e2d2b2a8d3f40
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+  TextFieldEffects: 529b8aff706fb40f82c41c780c0777941a893796
+
+PODFILE CHECKSUM: bbfd5bf2ed9b2e9d8355d334d926c5abc846645c
+
+COCOAPODS: 1.9.1

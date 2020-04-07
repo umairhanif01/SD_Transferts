@@ -1,0 +1,844 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		43592A4B36493E90626734A3 /* Pods_SD_Transferts_SD_TransfertsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E64BB16B55991BC9B095C19 /* Pods_SD_Transferts_SD_TransfertsUITests.framework */; };
+		4E15B707243C846E00AE595C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E15B706243C846E00AE595C /* Assets.xcassets */; };
+		4E2818E82436E5B300319475 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2818E72436E5B300319475 /* AppDelegate.swift */; };
+		4E2818EA2436E5B300319475 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2818E92436E5B300319475 /* SceneDelegate.swift */; };
+		4E2818EC2436E5B300319475 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2818EB2436E5B300319475 /* ViewController.swift */; };
+		4E2818EF2436E5B300319475 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E2818ED2436E5B300319475 /* Main.storyboard */; };
+		4E2818F22436E5B300319475 /* SD_Transferts.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4E2818F02436E5B300319475 /* SD_Transferts.xcdatamodeld */; };
+		4E2818F72436E5B700319475 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E2818F52436E5B700319475 /* LaunchScreen.storyboard */; };
+		4E2819022436E5B700319475 /* SD_TransfertsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2819012436E5B700319475 /* SD_TransfertsTests.swift */; };
+		4E28190D2436E5B700319475 /* SD_TransfertsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E28190C2436E5B700319475 /* SD_TransfertsUITests.swift */; };
+		4E54C15B2437121C00FF7D24 /* SignupController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E54C1582437121C00FF7D24 /* SignupController.swift */; };
+		4E54C15C2437121C00FF7D24 /* paymentsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E54C1592437121C00FF7D24 /* paymentsController.swift */; };
+		4E54C15D2437121C00FF7D24 /* Signup_StepTwoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E54C15A2437121C00FF7D24 /* Signup_StepTwoController.swift */; };
+		4E54C1602437124700FF7D24 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E54C15F2437124700FF7D24 /* LoginController.swift */; };
+		4E67F10A243B5BF400122264 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E67F108243B5BF400122264 /* RoundButton.swift */; };
+		5A19339ADFC301BFB24E48A2 /* Pods_SD_Transferts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2679987C36594EA6F1ED6A83 /* Pods_SD_Transferts.framework */; };
+		5D1600ACA580460DC9B41292 /* Pods_SD_TransfertsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B0EC145D4A95370D8AFFDC9 /* Pods_SD_TransfertsTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4E2818FE2436E5B700319475 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E2818DC2436E5B300319475 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E2818E32436E5B300319475;
+			remoteInfo = SD_Transferts;
+		};
+		4E2819092436E5B700319475 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E2818DC2436E5B300319475 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E2818E32436E5B300319475;
+			remoteInfo = SD_Transferts;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08E7D820DBFD379BF01A4357 /* Pods-SD_Transferts-SD_TransfertsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SD_Transferts-SD_TransfertsUITests.release.xcconfig"; path = "Target Support Files/Pods-SD_Transferts-SD_TransfertsUITests/Pods-SD_Transferts-SD_TransfertsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		0E64BB16B55991BC9B095C19 /* Pods_SD_Transferts_SD_TransfertsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SD_Transferts_SD_TransfertsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		15C1EAFCE27F36FEB7BAD4F1 /* Pods-SD_TransfertsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SD_TransfertsTests.debug.xcconfig"; path = "Target Support Files/Pods-SD_TransfertsTests/Pods-SD_TransfertsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		260442FDD22654EB77BC33B9 /* Pods-SD_Transferts.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SD_Transferts.debug.xcconfig"; path = "Target Support Files/Pods-SD_Transferts/Pods-SD_Transferts.debug.xcconfig"; sourceTree = "<group>"; };
+		2679987C36594EA6F1ED6A83 /* Pods_SD_Transferts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SD_Transferts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CF9CA9BE4A495043A02F034 /* Pods-SD_Transferts.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SD_Transferts.release.xcconfig"; path = "Target Support Files/Pods-SD_Transferts/Pods-SD_Transferts.release.xcconfig"; sourceTree = "<group>"; };
+		4E15B706243C846E00AE595C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4E2818E42436E5B300319475 /* SD_Transferts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SD_Transferts.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E2818E72436E5B300319475 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4E2818E92436E5B300319475 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4E2818EB2436E5B300319475 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4E2818EE2436E5B300319475 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4E2818F12436E5B300319475 /* SD_Transferts.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SD_Transferts.xcdatamodel; sourceTree = "<group>"; };
+		4E2818F62436E5B700319475 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4E2818F82436E5B700319475 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E2818FD2436E5B700319475 /* SD_TransfertsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SD_TransfertsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E2819012436E5B700319475 /* SD_TransfertsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SD_TransfertsTests.swift; sourceTree = "<group>"; };
+		4E2819032436E5B700319475 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E2819082436E5B700319475 /* SD_TransfertsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SD_TransfertsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E28190C2436E5B700319475 /* SD_TransfertsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SD_TransfertsUITests.swift; sourceTree = "<group>"; };
+		4E28190E2436E5B700319475 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E54C1582437121C00FF7D24 /* SignupController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupController.swift; sourceTree = "<group>"; };
+		4E54C1592437121C00FF7D24 /* paymentsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = paymentsController.swift; sourceTree = "<group>"; };
+		4E54C15A2437121C00FF7D24 /* Signup_StepTwoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Signup_StepTwoController.swift; sourceTree = "<group>"; };
+		4E54C15F2437124700FF7D24 /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		4E67F108243B5BF400122264 /* RoundButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		5B0EC145D4A95370D8AFFDC9 /* Pods_SD_TransfertsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SD_TransfertsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A93B4D0D9A2FFDE4AB287405 /* Pods-SD_TransfertsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SD_TransfertsTests.release.xcconfig"; path = "Target Support Files/Pods-SD_TransfertsTests/Pods-SD_TransfertsTests.release.xcconfig"; sourceTree = "<group>"; };
+		ADFBA4D73218EBFBD7703E29 /* Pods-SD_Transferts-SD_TransfertsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SD_Transferts-SD_TransfertsUITests.debug.xcconfig"; path = "Target Support Files/Pods-SD_Transferts-SD_TransfertsUITests/Pods-SD_Transferts-SD_TransfertsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E2818E12436E5B300319475 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A19339ADFC301BFB24E48A2 /* Pods_SD_Transferts.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E2818FA2436E5B700319475 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D1600ACA580460DC9B41292 /* Pods_SD_TransfertsTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E2819052436E5B700319475 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43592A4B36493E90626734A3 /* Pods_SD_Transferts_SD_TransfertsUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E2818DB2436E5B300319475 = {
+			isa = PBXGroup;
+			children = (
+				4E2818E62436E5B300319475 /* SD_Transferts */,
+				4E2819002436E5B700319475 /* SD_TransfertsTests */,
+				4E28190B2436E5B700319475 /* SD_TransfertsUITests */,
+				4E2818E52436E5B300319475 /* Products */,
+				9DDA7C9906858B4B5306A083 /* Pods */,
+				C264A496563164F8C7E164D0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4E2818E52436E5B300319475 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E2818E42436E5B300319475 /* SD_Transferts.app */,
+				4E2818FD2436E5B700319475 /* SD_TransfertsTests.xctest */,
+				4E2819082436E5B700319475 /* SD_TransfertsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4E2818E62436E5B300319475 /* SD_Transferts */ = {
+			isa = PBXGroup;
+			children = (
+				4E54C1622437127A00FF7D24 /* Model */,
+				4E54C1552437119E00FF7D24 /* View */,
+				4E54C156243711C200FF7D24 /* Controller */,
+				4E54C1612437126300FF7D24 /* Assets */,
+				4E54C1632437129800FF7D24 /* Constants */,
+				4E2818EB2436E5B300319475 /* ViewController.swift */,
+				4E2818F82436E5B700319475 /* Info.plist */,
+			);
+			path = SD_Transferts;
+			sourceTree = "<group>";
+		};
+		4E2819002436E5B700319475 /* SD_TransfertsTests */ = {
+			isa = PBXGroup;
+			children = (
+				4E2819012436E5B700319475 /* SD_TransfertsTests.swift */,
+				4E2819032436E5B700319475 /* Info.plist */,
+			);
+			path = SD_TransfertsTests;
+			sourceTree = "<group>";
+		};
+		4E28190B2436E5B700319475 /* SD_TransfertsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4E28190C2436E5B700319475 /* SD_TransfertsUITests.swift */,
+				4E28190E2436E5B700319475 /* Info.plist */,
+			);
+			path = SD_TransfertsUITests;
+			sourceTree = "<group>";
+		};
+		4E54C1552437119E00FF7D24 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4E2818ED2436E5B300319475 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4E54C156243711C200FF7D24 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4E54C157243711F500FF7D24 /* SignupControler */,
+				4E54C15E2437122F00FF7D24 /* LoginControler */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4E54C157243711F500FF7D24 /* SignupControler */ = {
+			isa = PBXGroup;
+			children = (
+				4E54C1592437121C00FF7D24 /* paymentsController.swift */,
+				4E54C15A2437121C00FF7D24 /* Signup_StepTwoController.swift */,
+				4E54C1582437121C00FF7D24 /* SignupController.swift */,
+			);
+			path = SignupControler;
+			sourceTree = "<group>";
+		};
+		4E54C15E2437122F00FF7D24 /* LoginControler */ = {
+			isa = PBXGroup;
+			children = (
+				4E54C15F2437124700FF7D24 /* LoginController.swift */,
+			);
+			path = LoginControler;
+			sourceTree = "<group>";
+		};
+		4E54C1612437126300FF7D24 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				4E15B706243C846E00AE595C /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		4E54C1622437127A00FF7D24 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4E54C1632437129800FF7D24 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				4E67F108243B5BF400122264 /* RoundButton.swift */,
+				4E2818E92436E5B300319475 /* SceneDelegate.swift */,
+				4E2818E72436E5B300319475 /* AppDelegate.swift */,
+				4E2818F52436E5B700319475 /* LaunchScreen.storyboard */,
+				4E2818F02436E5B300319475 /* SD_Transferts.xcdatamodeld */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		9DDA7C9906858B4B5306A083 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				260442FDD22654EB77BC33B9 /* Pods-SD_Transferts.debug.xcconfig */,
+				2CF9CA9BE4A495043A02F034 /* Pods-SD_Transferts.release.xcconfig */,
+				ADFBA4D73218EBFBD7703E29 /* Pods-SD_Transferts-SD_TransfertsUITests.debug.xcconfig */,
+				08E7D820DBFD379BF01A4357 /* Pods-SD_Transferts-SD_TransfertsUITests.release.xcconfig */,
+				15C1EAFCE27F36FEB7BAD4F1 /* Pods-SD_TransfertsTests.debug.xcconfig */,
+				A93B4D0D9A2FFDE4AB287405 /* Pods-SD_TransfertsTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C264A496563164F8C7E164D0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2679987C36594EA6F1ED6A83 /* Pods_SD_Transferts.framework */,
+				0E64BB16B55991BC9B095C19 /* Pods_SD_Transferts_SD_TransfertsUITests.framework */,
+				5B0EC145D4A95370D8AFFDC9 /* Pods_SD_TransfertsTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4E2818E32436E5B300319475 /* SD_Transferts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E2819112436E5B700319475 /* Build configuration list for PBXNativeTarget "SD_Transferts" */;
+			buildPhases = (
+				78283A9B6A8F2A52494CA5CB /* [CP] Check Pods Manifest.lock */,
+				4E2818E02436E5B300319475 /* Sources */,
+				4E2818E12436E5B300319475 /* Frameworks */,
+				4E2818E22436E5B300319475 /* Resources */,
+				41761A1AA4F18EADE1486E4C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SD_Transferts;
+			productName = SD_Transferts;
+			productReference = 4E2818E42436E5B300319475 /* SD_Transferts.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4E2818FC2436E5B700319475 /* SD_TransfertsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E2819142436E5B700319475 /* Build configuration list for PBXNativeTarget "SD_TransfertsTests" */;
+			buildPhases = (
+				2079D180040BBF5E461865F5 /* [CP] Check Pods Manifest.lock */,
+				4E2818F92436E5B700319475 /* Sources */,
+				4E2818FA2436E5B700319475 /* Frameworks */,
+				4E2818FB2436E5B700319475 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E2818FF2436E5B700319475 /* PBXTargetDependency */,
+			);
+			name = SD_TransfertsTests;
+			productName = SD_TransfertsTests;
+			productReference = 4E2818FD2436E5B700319475 /* SD_TransfertsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4E2819072436E5B700319475 /* SD_TransfertsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E2819172436E5B700319475 /* Build configuration list for PBXNativeTarget "SD_TransfertsUITests" */;
+			buildPhases = (
+				797174359FF4286D898239E8 /* [CP] Check Pods Manifest.lock */,
+				4E2819042436E5B700319475 /* Sources */,
+				4E2819052436E5B700319475 /* Frameworks */,
+				4E2819062436E5B700319475 /* Resources */,
+				84EAE8D7582EB16B25CE174F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E28190A2436E5B700319475 /* PBXTargetDependency */,
+			);
+			name = SD_TransfertsUITests;
+			productName = SD_TransfertsUITests;
+			productReference = 4E2819082436E5B700319475 /* SD_TransfertsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4E2818DC2436E5B300319475 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Umair Hanif";
+				TargetAttributes = {
+					4E2818E32436E5B300319475 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+					4E2818FC2436E5B700319475 = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = 4E2818E32436E5B300319475;
+					};
+					4E2819072436E5B700319475 = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = 4E2818E32436E5B300319475;
+					};
+				};
+			};
+			buildConfigurationList = 4E2818DF2436E5B300319475 /* Build configuration list for PBXProject "SD_Transferts" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4E2818DB2436E5B300319475;
+			productRefGroup = 4E2818E52436E5B300319475 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4E2818E32436E5B300319475 /* SD_Transferts */,
+				4E2818FC2436E5B700319475 /* SD_TransfertsTests */,
+				4E2819072436E5B700319475 /* SD_TransfertsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4E2818E22436E5B300319475 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E2818F72436E5B700319475 /* LaunchScreen.storyboard in Resources */,
+				4E15B707243C846E00AE595C /* Assets.xcassets in Resources */,
+				4E2818EF2436E5B300319475 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E2818FB2436E5B700319475 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E2819062436E5B700319475 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2079D180040BBF5E461865F5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SD_TransfertsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		41761A1AA4F18EADE1486E4C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SD_Transferts/Pods-SD_Transferts-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SD_Transferts/Pods-SD_Transferts-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SD_Transferts/Pods-SD_Transferts-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		78283A9B6A8F2A52494CA5CB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SD_Transferts-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		797174359FF4286D898239E8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SD_Transferts-SD_TransfertsUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		84EAE8D7582EB16B25CE174F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SD_Transferts-SD_TransfertsUITests/Pods-SD_Transferts-SD_TransfertsUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SD_Transferts-SD_TransfertsUITests/Pods-SD_Transferts-SD_TransfertsUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SD_Transferts-SD_TransfertsUITests/Pods-SD_Transferts-SD_TransfertsUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E2818E02436E5B300319475 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E67F10A243B5BF400122264 /* RoundButton.swift in Sources */,
+				4E54C15C2437121C00FF7D24 /* paymentsController.swift in Sources */,
+				4E2818F22436E5B300319475 /* SD_Transferts.xcdatamodeld in Sources */,
+				4E2818EC2436E5B300319475 /* ViewController.swift in Sources */,
+				4E54C15D2437121C00FF7D24 /* Signup_StepTwoController.swift in Sources */,
+				4E2818E82436E5B300319475 /* AppDelegate.swift in Sources */,
+				4E54C1602437124700FF7D24 /* LoginController.swift in Sources */,
+				4E54C15B2437121C00FF7D24 /* SignupController.swift in Sources */,
+				4E2818EA2436E5B300319475 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E2818F92436E5B700319475 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E2819022436E5B700319475 /* SD_TransfertsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E2819042436E5B700319475 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E28190D2436E5B700319475 /* SD_TransfertsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4E2818FF2436E5B700319475 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E2818E32436E5B300319475 /* SD_Transferts */;
+			targetProxy = 4E2818FE2436E5B700319475 /* PBXContainerItemProxy */;
+		};
+		4E28190A2436E5B700319475 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E2818E32436E5B300319475 /* SD_Transferts */;
+			targetProxy = 4E2819092436E5B700319475 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4E2818ED2436E5B300319475 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E2818EE2436E5B300319475 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4E2818F52436E5B700319475 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E2818F62436E5B700319475 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4E28190F2436E5B700319475 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4E2819102436E5B700319475 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4E2819122436E5B700319475 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 260442FDD22654EB77BC33B9 /* Pods-SD_Transferts.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LLNJDN2YUM;
+				INFOPLIST_FILE = SD_Transferts/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.umairHanif.SD-Transferts";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4E2819132436E5B700319475 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CF9CA9BE4A495043A02F034 /* Pods-SD_Transferts.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LLNJDN2YUM;
+				INFOPLIST_FILE = SD_Transferts/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.umairHanif.SD-Transferts";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4E2819152436E5B700319475 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15C1EAFCE27F36FEB7BAD4F1 /* Pods-SD_TransfertsTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LLNJDN2YUM;
+				INFOPLIST_FILE = SD_TransfertsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.umairHanif.SD-TransfertsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SD_Transferts.app/SD_Transferts";
+			};
+			name = Debug;
+		};
+		4E2819162436E5B700319475 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A93B4D0D9A2FFDE4AB287405 /* Pods-SD_TransfertsTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LLNJDN2YUM;
+				INFOPLIST_FILE = SD_TransfertsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.umairHanif.SD-TransfertsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SD_Transferts.app/SD_Transferts";
+			};
+			name = Release;
+		};
+		4E2819182436E5B700319475 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADFBA4D73218EBFBD7703E29 /* Pods-SD_Transferts-SD_TransfertsUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LLNJDN2YUM;
+				INFOPLIST_FILE = SD_TransfertsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.umairHanif.SD-TransfertsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SD_Transferts;
+			};
+			name = Debug;
+		};
+		4E2819192436E5B700319475 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08E7D820DBFD379BF01A4357 /* Pods-SD_Transferts-SD_TransfertsUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LLNJDN2YUM;
+				INFOPLIST_FILE = SD_TransfertsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.umairHanif.SD-TransfertsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SD_Transferts;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4E2818DF2436E5B300319475 /* Build configuration list for PBXProject "SD_Transferts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E28190F2436E5B700319475 /* Debug */,
+				4E2819102436E5B700319475 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E2819112436E5B700319475 /* Build configuration list for PBXNativeTarget "SD_Transferts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E2819122436E5B700319475 /* Debug */,
+				4E2819132436E5B700319475 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E2819142436E5B700319475 /* Build configuration list for PBXNativeTarget "SD_TransfertsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E2819152436E5B700319475 /* Debug */,
+				4E2819162436E5B700319475 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E2819172436E5B700319475 /* Build configuration list for PBXNativeTarget "SD_TransfertsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E2819182436E5B700319475 /* Debug */,
+				4E2819192436E5B700319475 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4E2818F02436E5B300319475 /* SD_Transferts.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4E2818F12436E5B300319475 /* SD_Transferts.xcdatamodel */,
+			);
+			currentVersion = 4E2818F12436E5B300319475 /* SD_Transferts.xcdatamodel */;
+			path = SD_Transferts.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4E2818DC2436E5B300319475 /* Project object */;
+}
