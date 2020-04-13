@@ -1627,14 +1627,127 @@
             </objects>
             <point key="canvasLocation" x="2027" y="957"/>
         </scene>
+        <!--Reservations-->
+        <scene sceneID="MN2-pG-YtU">
+            <objects>
+                <viewController id="OpS-FY-YBf" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="d7d-MH-z7D">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="Gqk-Ig-atC"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Reservations" image="car.fill" catalog="system" selectedImage="car.fill" id="RgZ-tW-bc6">
+                        <color key="badgeColor" red="0.080765806139999993" green="0.12947368619999999" blue="0.2849904895" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </tabBarItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="caB-Tb-MsI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3579" y="960"/>
+        </scene>
+        <!--Profile-->
+        <scene sceneID="vFX-EH-o5y">
+            <objects>
+                <viewController id="BjH-MV-sh4" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="EdJ-7A-qte">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="QDq-b1-ZHS"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Profile" image="person" catalog="system" selectedImage="person" id="90k-ha-rUu">
+                        <color key="badgeColor" red="0.080765806139999993" green="0.12947368619999999" blue="0.2849904895" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </tabBarItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5ZF-CX-G3u" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4314" y="960"/>
+        </scene>
+        <!--History-->
+        <scene sceneID="fGL-5T-vee">
+            <objects>
+                <viewController id="R0U-wV-DvC" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="6dy-Nc-a19">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="Wuy-pa-SI4"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="History" image="goforward.10.ar" catalog="system" selectedImage="goforward.60.ar" id="wJ3-PZ-QXg">
+                        <color key="badgeColor" red="0.080765806139999993" green="0.12947368619999999" blue="0.2849904895" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </tabBarItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jpQ-jW-xvc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5106" y="960"/>
+        </scene>
+        <!--Incidents-->
+        <scene sceneID="IBU-wI-q5g">
+            <objects>
+                <viewController id="AY8-vY-WE8" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="JwQ-U9-1IP">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="aXB-OJ-DgT"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Incidents" image="exclamationmark.triangle" catalog="system" selectedImage="exclamationmark.triangle" id="7Vo-mu-t2x"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wcV-Ls-bkm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5829" y="960"/>
+        </scene>
+        <!--Transcations-->
+        <scene sceneID="Ots-Nc-3nP">
+            <objects>
+                <viewController id="lFN-M3-Yxd" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="VnW-nO-7le">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="tBW-EG-5BQ"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Transcations" image="doc.plaintext" catalog="system" selectedImage="doc.plaintext" id="wGf-8x-Irn"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Sw7-V7-NhW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6553" y="960"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="2D0-bP-S9L">
+            <objects>
+                <tabBarController id="2s5-f7-CRz" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="CHV-o7-ntV">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="BjH-MV-sh4" kind="relationship" relationship="viewControllers" id="X0n-Ds-xo8"/>
+                        <segue destination="OpS-FY-YBf" kind="relationship" relationship="viewControllers" id="XiP-Ib-0gW"/>
+                        <segue destination="R0U-wV-DvC" kind="relationship" relationship="viewControllers" id="bsZ-KB-Afi"/>
+                        <segue destination="AY8-vY-WE8" kind="relationship" relationship="viewControllers" id="Ipv-U9-P6b"/>
+                        <segue destination="lFN-M3-Yxd" kind="relationship" relationship="viewControllers" id="ZbI-Hg-awY"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GyF-lv-fJm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5106" y="-250"/>
+        </scene>
     </scenes>
     <resources>
         <image name="arrow.left" catalog="system" width="128" height="98"/>
         <image name="arrowtriangle.down" catalog="system" width="128" height="124"/>
         <image name="arrowtriangle.right" catalog="system" width="128" height="113"/>
+        <image name="car.fill" catalog="system" width="128" height="93"/>
         <image name="creditcard" catalog="system" width="128" height="91"/>
+        <image name="doc.plaintext" catalog="system" width="115" height="128"/>
         <image name="envelope" catalog="system" width="128" height="93"/>
+        <image name="exclamationmark.triangle" catalog="system" width="128" height="112"/>
+        <image name="goforward.10.ar" catalog="system" width="121" height="128"/>
+        <image name="goforward.60.ar" catalog="system" width="121" height="128"/>
         <image name="lock" catalog="system" width="128" height="128"/>
         <image name="pakistanFlag" width="120" height="80"/>
+        <image name="person" catalog="system" width="128" height="117"/>
     </resources>
 </document>
